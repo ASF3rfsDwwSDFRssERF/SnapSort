@@ -1,6 +1,6 @@
 # 📂 SnapSort: The Python File Organizer
 
-Are you tired of your `Downloads` folder looking like a digital junk drawer? **Chaos Coordinator** is a lightweight Python script designed to instantly sort your messy directories into neat, categorized subfolders. 
+Are you tired of your `Downloads` folder looking like a digital junk drawer? **SnapSort** is a lightweight Python script designed to instantly sort your messy directories into neat, categorized subfolders. 
 
 No more endless scrolling to find that one PDF or accidental double-downloads. Run the script, and watch the clutter disappear.
 
