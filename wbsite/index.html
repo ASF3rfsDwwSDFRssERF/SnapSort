@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapSort | The Ultimate File Organizer</title>
+    <meta name="description" content="A simple file organizer in python for images, documents, archives, audio, video, installers and code.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Abstract Background Blobs -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="assets/logo.png" alt="SnapSort Logo">
+            SnapSort
+        </a>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="download.html" class="active">Download</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Organize your files <br> <span class="text-gradient">effortlessly.</span></h1>
+        <p>A minimalist Python script to automatically classify and organize your clutter. Keep your desktop spotless.</p>
+        <div class="hero-cta">
+            <a href="download.html" class="btn btn-primary"><i class="fa-solid fa-download" style="margin-right: 8px;"></i> Get SnapSort</a>
+            <a href="#features" class="btn btn-outline">Explore Features</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2 class="section-title fade-in">Everything <span class="text-gradient">Sorted</span></h2>
+        
+        <div class="feature-grid">
+            <div class="feature-card fade-in" style="transition-delay: 0.1s;">
+                <div class="feature-icon"><i class="fa-solid fa-image"></i></div>
+                <h3>Images</h3>
+                <p>Automatically detects and moves formats like .png, .jpg, and .svg into dedicated image folders.</p>
+            </div>
+            
+            <div class="feature-card fade-in" style="transition-delay: 0.2s;">
+                <div class="feature-icon"><i class="fa-solid fa-file-pdf"></i></div>
+                <h3>Documents</h3>
+                <p>Perfect for .pdf, .docx, and .txt files. Keep your vital work easily accessible.</p>
+            </div>
+            
+            <div class="feature-card fade-in" style="transition-delay: 0.3s;">
+                <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>Code & Dev</h3>
+                <p>Isolates .py, .js, .html, and others. Protects your development environment.</p>
+            </div>
+            
+            <div class="feature-card fade-in" style="transition-delay: 0.4s;">
+                <div class="feature-icon"><i class="fa-solid fa-file-zipper"></i></div>
+                <h3>Archives</h3>
+                <p>Cleans up all your .zip, .rar, and .tar.gz files sitting in your downloads folder.</p>
+            </div>
+            
+            <div class="feature-card fade-in" style="transition-delay: 0.5s;">
+                <div class="feature-icon"><i class="fa-solid fa-film"></i></div>
+                <h3>Media</h3>
+                <p>Sorts audio (.mp3, .wav) and video (.mp4, .mkv) files intuitively.</p>
+            </div>
+            
+            <div class="feature-card fade-in" style="transition-delay: 0.6s;">
+                <div class="feature-icon"><i class="fa-solid fa-box-open"></i></div>
+                <h3>Installers</h3>
+                <p>Locates and manages huge .exe and .msi setup files instantly.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
